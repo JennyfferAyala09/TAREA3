@@ -1,0 +1,73 @@
+/* Estilos para el cuerpo de la página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: flex-start; /* Cambiado de 'center' a 'flex-start' para mostrar el formulario en la esquina izquierda */
+    align-items: flex-start; /* Cambiado de 'center' a 'flex-start' para mostrar el formulario en la esquina izquierda */
+    height: 100vh;
+    overflow: hidden;
+    background-image: url('https://2.bp.blogspot.com/_i8pYjfES2zA/TS_o0kSWY-I/AAAAAAAABPk/khCandnhEGA/s1600/Geometric_Sunrise.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Estilos para el video de fondo */
+#videoFondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+/* Estilos para el contenedor del formulario */
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin: 20px; /* Añadido margen para separar el formulario del borde de la página */
+}
+
+/* Estilos para el título */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para las etiquetas de formulario */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilos para los campos de entrada de formulario */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+
+/* Estilos para el botón */
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilos para el botón al pasar el mouse por encima */
+button:hover {
+    background-color: #0056b3;
+}
